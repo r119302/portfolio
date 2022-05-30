@@ -1,0 +1,23 @@
+#page-top {
+  position: fixed;
+  bottom: 0;
+  right: 45px;
+}
+
+@media screen and (max-width: 790px){ 
+  #page-top img{
+    display: none;
+  }
+}
+
+#page-top a {
+  padding: 28px 5px;
+  display: block;
+  border-radius: 90px;
+  opacity: 0.9;
+  transition: all .3s ease;
+}
+#page-top a:hover {
+  text-decoration: none;
+  opacity: .5;
+}

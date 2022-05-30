@@ -1,0 +1,110 @@
+#about {
+    padding-top: 150px; 
+    margin: 0 13%;
+}
+
+@media screen and (min-width: 1200px) {
+    .about{
+        display: grid;
+        grid-template-rows: 100px 300px 300px ;
+        grid-template-columns: 40vw 20vw 10vw;
+        grid-template-areas: 
+            "area1 area1 area1"
+            "area3 area2 area2"
+            "area3 area4 area5";
+        
+        justify-items: center;
+        align-items: center;
+    }
+    #item1{
+        grid-area: area1;
+        justify-items: center;
+        align-items: center;
+    }
+    #item1 img {
+        justify-items: center;
+        align-items: center;
+    }
+    #item2{
+        grid-area: area3;
+    }
+    #item3{
+        grid-area: area2;
+        justify-items: center;
+        align-items: center;
+    }
+    #item4{
+        grid-area: area4;
+    }
+    #item5{
+        grid-area: area5;
+    }
+}
+    
+@media screen and (max-width: 1200px){ 
+    .about{
+        display: block;
+        
+        margin-left: auto;
+        margin-left: auto;
+    }
+    #about{
+        padding-top: 135px;
+        
+    }
+    .about .title{
+        text-align: center;
+    }
+
+    #item1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #item1 img{
+        width: min(80vw, 80vh);
+        height: auto;
+    }
+    #item3{
+        text-align: center;
+    }
+    #item2{
+        margin-top: 40px;
+    }
+    #item4{
+        margin-top: 60px;
+    }
+    #item5{
+        margin-left: 100px;
+    }
+}
+
+#text{
+    margin-top: 40px;
+    line-height:38px ;
+    font-size: 16px;
+}
+
+#aka{
+    float:right;
+}
+
+
+#item2 h3{
+    line-height: 60px;
+    font-size: 60px;
+}
+
+#item2 p{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+#item4 u{
+    font-size: 30px;
+}
+
+#item4{
+    margin-left: 100px;
+}
+
+

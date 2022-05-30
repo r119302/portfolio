@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "atlan";
+    src: url(../font/AtlanticFuture/AtlanticFuture.otf);
+}
+
+
+
+.background{
+    width: min(85vw,85vh);
+    margin: 150px auto 0 auto ;
+    user-select: none;
+    text-align: center;
+}
+
+#ja{
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+  
+
+#eng{
+    font-family: "atlan";
+    word-wrap: break-word;
+    font-size: 2.5em;
+}
+
